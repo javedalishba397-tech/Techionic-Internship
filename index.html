@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+    <section class="hero" id="home">
+        <div class="nav">
+            <div class="logo">
+                <img src="logo.png" alt="My Restaurant Logo" />
+            </div>
+            <div class="buttons">
+                <a href="#home">Home</a>
+                <a href="#menu">Menu</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>  
+                <a href="#order">Order Now</a>
+            </div>
+        </div>
+        <div class="hero-content">
+            <h1>Where <span>flavour</span> meets <span>tradition</span></h1>
+            <p>Seasonal, sustainable, and crafted with soul every plate tells a story.</p>
+            <a href="#order" class="btn-primary">Reserve a Table</a>
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+        <div class="container">
+            <h2 class="section-title">Today's <span>Selection</span></h2>
+            <p class="section-sub">Fresh from the market, cooked with care.</p>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <div class="menu-img" style="background-image: url('Smach\ Burger.png');"></div>
+                    <div class="menu-body">
+                        <h3>Smash Burger</h3>
+                        <p>Double patty, aged cheddar, caramelized onions, house sauce.</p>
+                        <span class="price">$16.99</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-img" style="background-image: url('Truffle\ Mashroom\ Pizza.png');"></div>
+                    <div class="menu-body">
+                        <h3>Truffle Mushroom Pizza</h3>
+                        <p>Wild mushrooms, truffle oil, mozzarella, fresh thyme.</p>
+                        <span class="price">$18.50</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-img" style="background-image: url('Harvest\ Bowl.png');"></div>
+                    <div class="menu-body">
+                        <h3>Harvest Bowl</h3>
+                        <p>Quinoa, roasted vegetables, avocado, lemon-tahini dressing.</p>
+                        <span class="price">$13.25</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-img" style="background-image: url('Harvest\ Bowl.png');"></div>
+                    <div class="menu-body">
+                        <h3>Seared Scallops</h3>
+                        <p>Parsnip purée, brown butter, crispy sage, citrus gremolata.</p>
+                        <span class="price">$26.00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <div style="background-image: url('About.png');"></div>
+                </div>
+                <div class="about-content">
+                    <h2 class="section-title">Our <span>Story</span></h2>
+                    <p>
+                        Alishba's Restaurant was born from a love for honest cooking and
+                        a deep respect for the land. We source from local farms,
+                        fish from sustainable waters, and bake bread fresh every morning.
+                    </p>
+                    <p>
+                        Our kitchen invites you to watch the magic happen
+                        flames, smoke, and a whole lot of heart. Whether you're a
+                        regular or a first-timer, you're family here.
+                    </p>
+                    <a href="#order" class="btn-primary">Make a Reservation</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section class="contact" id="contact">
+    <div class="container">
+        <h2 class="section-title">Get in <span>Touch</span></h2>
+        <p class="section-sub">We'd love to hear from you drop us a message or visit us.</p>
+
+        <div class="contact-info">
+            <div class="info-item">
+                <span class="info-icon"></span>
+                <h4>Address</h4>
+                <p>47 Market Street, Melbourne VIC 3000</p>
+            </div>
+            <div class="info-item">
+                <span class="info-icon"></span>
+                <h4>Phone</h4>
+                <p>(03) 9876 5432</p>
+            </div>
+            <div class="info-item">
+                <span class="info-icon"></span>
+                <h4>Email</h4>
+                <p>hello@Restaurant</p>
+            </div>
+            <div class="info-item">
+                <span class="info-icon"></span>
+                <h4>Opening Hours</h4>
+                <p>Wed – Sun: 5:00 PM to 11:00 PM</p>
+            </div>
+        </div>
+
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea rows="4" placeholder="Your Message..."></textarea>
+            <button type="submit" class="btn-primary">Send Message</button>
+        </form>
+    </div>
+</section>
+
+    <section class="order" id="order">
+        <div class="container">
+            <h2 class="section-title">Place Your <span>Order</span></h2>
+            <p class="order-sub">Let us know what you're craving, and we'll have it ready.</p>
+            <form class="order-form">
+                <div class="form-row">
+                    <input type="text" placeholder="Full Name" required />
+                    <input type="email" placeholder="Email Address" required />
+                </div>
+                <div class="form-row">
+                    <input type="text" placeholder="Phone Number" />
+                    <input type="text" placeholder="Preferred Pickup Time" />
+                </div>
+                <textarea rows="4" placeholder="Tell us what you'd like to order… (e.g. 2x Smash Burgers, 1x Harvest Bowl)"></textarea>
+                <button type="submit" class="btn-primary">Send Order</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <p>47 Market Street, Melbourne</p>
+                    <p>Wed–Sun · 5pm – 11pm</p>
+                    <p style="margin-top:0.5rem;">(03) 9876 5432</p>
+                </div>
+                <div class="footer-col">
+                    <h5>Quick Links</h5>
+                    <a href="#menu">Menu</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#order">Order</a>
+                </div>
+                <div class="footer-col">
+                    <h5>Follow Us</h5>
+                    <div class="socials">
+                        <a href="#">Instagram</a>
+                        <a href="#">Facebook</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Restaurant. Crafted with care.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
